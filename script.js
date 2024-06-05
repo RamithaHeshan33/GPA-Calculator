@@ -1,4 +1,4 @@
-let courseCounter = 1;
+let courseCounter = 4;
 
 function addCourse() {
     courseCounter++;
