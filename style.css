@@ -16,7 +16,6 @@ body {
 }
 
 .form-group {
-    display: flex;
     margin-bottom: 10px;
 }
 
@@ -54,9 +53,19 @@ body {
     color: white;
 }
 
+.calculate:hover {
+    background-color: #4df052;
+    transition: 10ms;
+}
+
 .buttons .clear {
     background-color: #ccc;
     color: white;
+}
+
+.clear:hover {
+    background-color: #898989;
+    transition: 10ms;
 }
 
 .add-course {
