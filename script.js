@@ -1,9 +1,12 @@
+let courseCounter = 1;
+
 function addCourse() {
+    courseCounter++;
     const container = document.getElementById('course-container');
     const courseDiv = document.createElement('div');
     courseDiv.className = 'form-group course';
     courseDiv.innerHTML = `
-        <input type="text" name="course-name" placeholder="Course (optional)">
+        <input type="text" name="course-name" placeholder="Subject ${courseCounter}">
         <input type="number" name="credits" placeholder="Credits" required>
         <select name="grade" required>
             <option value="4.0">A</option>
